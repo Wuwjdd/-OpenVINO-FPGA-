@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="convB1" out_port_id="convB1"/>
+		<IR id="8" name="convB1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="data" out_port_id="data"/>
+		<IR id="0" name="data" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="convQ" out_port_id="convQ"/>
+		<IR id="1" name="convQ" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="ReLU0" out_port_id="convQ"/>
+		<IR id="2" name="ReLU0" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="convA1" out_port_id="convA1"/>
+		<IR id="3" name="convA1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="convA2" out_port_id="convA2"/>
+		<IR id="4" name="convA2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="convA3" out_port_id="convA3"/>
+		<IR id="5" name="convA3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="convA" out_port_id="convA"/>
+		<IR id="6" name="convA" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="convB11" out_port_id="convB11"/>
+		<IR id="9" name="convB11" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="convB21" out_port_id="convB21"/>
+		<IR id="11" name="convB21" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="elem_1" out_port_id="elem_1"/>
+		<IR id="12" name="elem_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="convB" out_port_id="convB"/>
+		<IR id="13" name="convB" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="convC" out_port_id="convC"/>
+		<IR id="14" name="convC" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="convC1" out_port_id="convC1"/>
+		<IR id="15" name="convC1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="pool1" out_port_id="pool1"/>
+		<IR id="16" name="pool1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="convD" out_port_id="convD"/>
+		<IR id="17" name="convD" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="relu1" out_port_id="convA"/>
+		<IR id="7" name="relu1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="convB2" out_port_id="convB2"/>
+		<IR id="10" name="convB2" out_port_id="3"/>
+	</map>
+</mapping>
